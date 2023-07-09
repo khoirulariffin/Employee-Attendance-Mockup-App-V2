@@ -6,6 +6,8 @@ import GraphUp from "./graph-up.png";
 import GraphDown from "./graph-down.png";
 import GraphGender from "./gender-graph.png";
 import GraphStatus from "./status-graph.png";
+import LittleSidebarLogo from "./little-sidebar-logo.png";
+import BarGraph from "./bar-graph.png";
 
 export {
   ErrorPage,
@@ -16,4 +18,6 @@ export {
   GraphDown,
   GraphGender,
   GraphStatus,
+  LittleSidebarLogo,
+  BarGraph,
 };

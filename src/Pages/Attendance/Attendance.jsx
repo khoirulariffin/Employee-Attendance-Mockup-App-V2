@@ -12,7 +12,7 @@ const Attendance = () => {
   const iconDown = <FontAwesomeIcon icon="fa-solid fa-arrow-down" />;
 
   return (
-    <div className="bg-white mt-4 rounded-tl-2xl min-h-screen p-4 flex flex-col gap-4">
+    <div className="bg-white mt-4 rounded-tl-2xl min-h-screen h-full p-4 flex flex-col gap-4">
       <Header />
       <Greeting />
       <div className="flex flex-row gap-4">

@@ -1,8 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 const TableCaption = () => {
   const [currentDate, setCurrentDate] = useState(new Date());
+  const filter = (
+    <div className="border shadow rounded-lg py-2 px-4 flex flex-row justify-center items-center gap-4 cursor-pointer">
+      <FontAwesomeIcon icon="fa-solid fa-filter" className="text-gray-500" />
+      <h2>More Filters</h2>
+    </div>
+  );
+  const location = useLocation();
 
   return (
     <div className="flex flex-row justify-between mx-4">
@@ -29,10 +37,7 @@ const TableCaption = () => {
           />
         </div>
       </div>
-      <div className="border shadow rounded-lg py-2 px-4 flex flex-row justify-center items-center gap-4 cursor-pointer">
-        <FontAwesomeIcon icon="fa-solid fa-filter" className="text-gray-500" />
-        <h2>More Filters</h2>
-      </div>
+      {location.pathname !== "/home" && filter}
     </div>
   );
 };

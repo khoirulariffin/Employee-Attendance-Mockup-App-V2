@@ -64,7 +64,8 @@ const LargeSidebar = () => {
             />
             <h1 className="text-white text-sm">Payroll</h1>
           </div>
-          <div
+          <NavLink
+            to={"/home/schedule"}
             className={`flex flex-row justify-start items-center gap-4 ${
               location.pathname === "/schedule/" && "bg-[rgb(52,64,84)]"
             } py-3 px-2 rounded-md cursor-pointer`}
@@ -74,7 +75,7 @@ const LargeSidebar = () => {
               className="text-white"
             />
             <h1 className="text-white text-sm">Schedule</h1>
-          </div>
+          </NavLink>
         </div>
       </div>
       <div className="flex flex-col mx-4 gap-2 justify-end mb-4">
