@@ -27,15 +27,10 @@ const RegisterPage = () => {
       <div className="col-span-4 flex justify-center items-center">
         <div className="flex flex-col w-4/5 gap-4">
           <div className="text-center mb-4">
-            <h1 className="font-Poppins font-semibold text-3xl text-[#3B3E43]">
-              Sign Up
-            </h1>
+            <h1 className="font-semibold text-3xl text-[#3B3E43]">Sign Up</h1>
           </div>
           <div className="flex flex-col gap-1">
-            <label
-              htmlFor="email"
-              className="font-Poppins font-semibold opacity-70 text-sm"
-            >
+            <label htmlFor="email" className="font-semibold opacity-70 text-sm">
               Email
             </label>
             <div className="flex flex-row border shadow rounded-lg overflow-hidden justify-center items-center px-2">
@@ -52,7 +47,7 @@ const RegisterPage = () => {
           <div className="flex flex-col gap-1">
             <label
               htmlFor="password"
-              className="font-Poppins font-semibold opacity-70 text-sm"
+              className="font-semibold opacity-70 text-sm"
             >
               Password
             </label>
@@ -76,7 +71,7 @@ const RegisterPage = () => {
           <div className="flex flex-col gap-1">
             <label
               htmlFor="passwordConfirmation"
-              className="font-Poppins font-semibold opacity-70 text-sm"
+              className="font-semibold opacity-70 text-sm"
             >
               Password Confirmation
             </label>
@@ -100,7 +95,7 @@ const RegisterPage = () => {
           <div className="flex flex-col gap-1">
             <label
               htmlFor="companyName"
-              className="font-Poppins font-semibold opacity-70 text-sm"
+              className="font-semibold opacity-70 text-sm"
             >
               Company Name
             </label>
@@ -118,7 +113,7 @@ const RegisterPage = () => {
           <div className="flex flex-col gap-1">
             <label
               htmlFor="companyLocation"
-              className="font-Poppins font-semibold opacity-70 text-sm"
+              className="font-semibold opacity-70 text-sm"
             >
               Company Location
             </label>
@@ -142,7 +137,7 @@ const RegisterPage = () => {
           <div className="flex flex-col gap-1">
             <label
               htmlFor="business"
-              className="font-Poppins font-semibold opacity-70 text-sm"
+              className="font-semibold opacity-70 text-sm"
             >
               Business
             </label>
@@ -166,7 +161,7 @@ const RegisterPage = () => {
           <div className="flex flex-col gap-1">
             <label
               htmlFor="numberOfEmployees"
-              className="font-Poppins font-semibold opacity-70 text-sm"
+              className="font-semibold opacity-70 text-sm"
             >
               Number of Employees
             </label>
@@ -185,13 +180,13 @@ const RegisterPage = () => {
             <NavLink
               to={"/"}
               className={
-                "bg-[#6E7FB9] w-full text-white text-center rounded-lg py-1.5 font-Poppins text-sm active:opacity-80"
+                "bg-[#6E7FB9] w-full text-white text-center rounded-lg py-1.5 text-sm active:opacity-80"
               }
             >
               Sign Up
             </NavLink>
             <NavLink to={"/"}>
-              <h2 className="font-Poppins text-xs font-semibold text-gray-600">
+              <h2 className="text-xs font-semibold text-gray-600">
                 Already have an account?{" "}
                 <span className="text-[#6E7FB9]">Sign in now</span>
               </h2>

@@ -6,6 +6,7 @@ export default {
     fontFamily: {
       Poppins: ["Poppins", "sans-serif"],
       Nunito: ["Nunito Sans", "sans-serif"],
+      sans: ["Poppins", "sans-serif"],
     },
   },
   plugins: [],

@@ -9,15 +9,10 @@ const LoginPage = () => {
       <div className="col-span-4 flex justify-center items-center">
         <div className="flex flex-col w-4/5 gap-4">
           <div className="text-center mb-4">
-            <h1 className="font-Poppins font-semibold text-3xl text-[#3B3E43]">
-              Sign In
-            </h1>
+            <h1 className="font-semibold text-3xl text-[#3B3E43]">Sign In</h1>
           </div>
           <div className="flex flex-col gap-1">
-            <label
-              htmlFor="email"
-              className="font-Poppins font-semibold opacity-70 text-sm"
-            >
+            <label htmlFor="email" className="font-semibold opacity-70 text-sm">
               Email
             </label>
             <div className="flex flex-row border shadow rounded-lg overflow-hidden justify-center items-center px-2">
@@ -34,7 +29,7 @@ const LoginPage = () => {
           <div className="flex flex-col gap-1">
             <label
               htmlFor="password"
-              className="font-Poppins font-semibold opacity-70 text-sm"
+              className="font-semibold opacity-70 text-sm"
             >
               Password
             </label>
@@ -55,20 +50,22 @@ const LoginPage = () => {
               </div>
             </div>
             <div className="flex flex-row justify-end mt-2">
-              <h2 className="font-Poppins text-xs drop-shadow text-[#6E7FB9]">
+              <h2 className="text-xs drop-shadow text-[#6E7FB9]">
                 Forgot Password?
               </h2>
             </div>
           </div>
           <div className="flex flex-col justify-center items-center gap-4 mt-2">
-            <button
-              type="button"
-              className="bg-[#6E7FB9] w-full text-white rounded-lg py-1.5 font-Poppins text-sm active:opacity-80"
+            <NavLink
+              to={"/home"}
+              className={
+                "text-center bg-[#6E7FB9] w-full text-white rounded-lg py-1.5 text-sm active:opacity-80"
+              }
             >
               Sign In
-            </button>
+            </NavLink>
             <NavLink to={"register"}>
-              <h2 className="font-Poppins text-xs font-semibold text-gray-600">
+              <h2 className="text-xs font-semibold text-gray-600">
                 Don't have an account?{" "}
                 <span className="text-[#6E7FB9]">Sign up now</span>
               </h2>
