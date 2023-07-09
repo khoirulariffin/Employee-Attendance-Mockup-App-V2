@@ -17,6 +17,7 @@ const CompanyOverview = () => {
             valueChanged="425"
             icon={iconUp}
             graph={GraphUp}
+            compareValue="last month"
           />
           <Card
             title="Total Departement"
@@ -25,6 +26,7 @@ const CompanyOverview = () => {
             icon={iconDown}
             graph={GraphDown}
             status="down"
+            compareValue="last month"
           />
         </div>
         <div className="flex flex-col border shadow w-3/5 p-4 rounded-md gap-4">

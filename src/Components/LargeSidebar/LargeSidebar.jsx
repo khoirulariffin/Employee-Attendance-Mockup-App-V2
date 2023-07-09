@@ -7,7 +7,7 @@ const LargeSidebar = () => {
   const location = useLocation();
 
   return (
-    <div className="flex flex-col gap-6 mt-4 min-h-screen justify-between">
+    <div className="flex flex-col gap-6 mt-4 min-h-full justify-between bg-[rgb(16,24,40)]">
       <div>
         <div>
           <img src={SidebarLogo} alt="Sidebar Logo" className="w-full" />
